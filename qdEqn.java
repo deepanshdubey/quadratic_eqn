@@ -24,3 +24,20 @@ x2=(-b-res)/2*a;
 System.out.println("a="+a+"   b="+b+"    c="+c);
 System.out.println("The roots are "+x1+" and "+x2);
 }}
+
+import './App.css';
+import Navbar from './components/Navbar.js'
+import Form from './components/Form'
+
+
+function App() {
+  return (
+   <>
+   <Navbar title="TextUtils" aboutText="About Us" />
+   <Form/>
+   
+   </>
+  );
+}
+
+export default App;
